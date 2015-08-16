@@ -1,0 +1,15 @@
+pkgbase = lico-update
+	pkgdesc = The Linux Counter automatic update script
+	pkgver = git
+	pkgrel = 1
+	url = https://linuxcounter.net/script.html
+	arch = any
+	license = GPL
+	depends = lsb-release
+	optdepends = cron: use cron to automatically update your counter entry
+	conflicts = machine-update
+	replaces = machine-update
+	source = https://github.com/alexloehner/linuxcounter-update-examples/raw/master/_official/lico-update.sh
+
+pkgname = lico-update
+
